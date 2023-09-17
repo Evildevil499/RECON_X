@@ -23,19 +23,19 @@ Certainly! Here are the steps for installing the Recon-X tool:
 **Step 1: Clone the Repository**
 
 ```bash
-git clone https://github.com/yourusername/recon-x.git
+git clone https://github.com//Evildevil499/RECON_X.git
 ```
 
 **Step 2: Navigate to the Directory**
 
 ```bash
-cd recon-x
+cd RECON_X
 ```
 
 **Step 3: Make the Script Executable**
 
 ```bash
-chmod +x recon-x.sh
+chmod +x recon.sh
 ```
 
 **Step 4: Install Dependencies (If Any)**
@@ -47,7 +47,7 @@ Check if the script has any dependencies that need to be installed. These could 
 You can verify that the installation was successful by running a test command:
 
 ```bash
-./recon-x.sh -h
+./recon.sh 
 ```
 
 or 
