@@ -51,7 +51,6 @@ You can verify that the installation was successful by running a test command:
 ```
 
 or 
-Great! If you already have a Dockerfile provided, you're ahead in the process. Let's proceed with the steps to build and run your Recon-X tool using Docker:
 
 **Step 1: Navigate to Your Project Directory**
 
