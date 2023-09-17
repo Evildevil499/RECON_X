@@ -50,7 +50,40 @@ You can verify that the installation was successful by running a test command:
 ./recon-x.sh -h
 ```
 
-This should display the help message or options menu for the Recon-X tool, indicating that it's installed and ready to use.
+or 
+Great! If you already have a Dockerfile provided, you're ahead in the process. Let's proceed with the steps to build and run your Recon-X tool using Docker:
+
+**Step 1: Navigate to Your Project Directory**
+
+Open a terminal or command prompt and navigate to the directory containing the `Dockerfile` and your Recon-X tool files.
+
+**Step 2: Build the Docker Image**
+
+Run the following command to build the Docker image. Make sure to replace `your_image_name` with a suitable name for your image.
+
+```bash
+docker build -t recon-x .
+```
+
+**Step 3: Verify the Image**
+
+After the build process completes, you can verify that the image has been created by running:
+
+```bash
+docker images
+```
+
+You should see your newly created image listed.
+
+**Step 4: Run the Docker Container**
+
+You can now run your Recon-X tool in a Docker container. Use the following command:
+
+```bash
+docker run -it recon-x 
+```
+
+
 
 **Note:** If you encounter any errors during the installation process, double-check that you have the necessary permissions and that any dependencies are properly installed. If there are specific instructions or additional configuration steps provided in the tool's documentation, make sure to follow those as well.
 
@@ -68,13 +101,13 @@ Explain how users can run the tool, providing a brief description of each option
 ### Examples
 ```bash
 # Example 1: Gather subdomains
-./yourtool.sh -s
+./recon.sh -s
 
 # Example 2: Perform full scan
-./yourtool.sh -a
+./recon.sh -a
 
 # Example 3: Run directory brute-force
-./yourtool.sh -d
+./recon.sh -d
 ```
 
 ## Functions
@@ -92,12 +125,9 @@ Explain what this function does and how it works.
 ### NUCLEI
 Explain what this function does and how it works.
 
-## Contributing
-If you'd like to contribute to the tool, provide instructions on how users can do so. Include information on how to submit issues, propose new features, and submit pull requests.
 
-## License
-Include the license under which your tool is distributed.
+
+
 
 ---
 
-Remember to replace the placeholders (e.g., `yourtool`, `yourusername`) with actual names specific to your tool. Provide as much detail as possible to ensure users can effectively use your tool. Additionally, you can include screenshots, GIFs, or other media to enhance the documentation.
